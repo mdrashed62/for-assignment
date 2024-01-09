@@ -165,7 +165,7 @@ span {
 .btn-2 {
     text-align: center;
     margin-top: 350px;
-    margin-left: 570px;
+    margin-left: 560px;
     position: absolute;
     background-color: #F00;
     color: #FFF;
@@ -253,8 +253,6 @@ span {
     font-weight: 400;
     line-height: 32px;
     margin-top: 50px;
-    
-
 }
 
 .sub-box-8-column-3 {
@@ -314,6 +312,11 @@ span {
     gap: 24px;
     margin-top: 24px;
 }
+ 
+/* extra */
+.main-section-6{
+    margin-top: 50px;
+}
 
 .main-section-7 {
     width: 1320px;
@@ -322,24 +325,56 @@ span {
     background: rgba(255, 0, 0, 0.05);
     margin-top: 120px;
 }
-
+.bonus-section{
+    margin-top: 80px;
+}
 .box-1-bonus {
     width: 280px;
     height: 29px;
     color: #070211;
     font-size: 24px;
     font-weight: 500;
+    text-align: center;
+    margin-left: 480px;
+    margin-bottom: 20px;
+    
 }
 
 .box-2-bonus {
     width: 850px;
     height: 110px;
     color: #F00;
-    font-size: 60px;
+    font-size: 35px;
     font-weight: 900;
+    text-align: center;
+   margin-left: 200px;
+}
+.box-3-bonus{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 100px;
 }
 #sale{
     color: #070211;
+    
+}
+
+/* extra css for bonus section */
+
+.holiday-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.holiday-second-img img{
+    position: relative;
+    right: 150px;
+}
+.disount-img{
+    position: absolute;
 }
 
 .box1-main-section-7 {
